@@ -13,17 +13,6 @@ const firebaseConfig = {
   appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
 
-// const firebaseConfig = {
-//   apiKey: "AIzaSyDNGMWjLYxCZ-5eQtqZH1AN4SCKL1CRzC0",
-//   authDomain: "react123-9643c.firebaseapp.com",
-//   databaseURL:
-//     "https://react123-9643c-default-rtdb.asia-southeast1.firebasedatabase.app",
-//   projectId: "react123-9643c",
-//   storageBucket: "react123-9643c.appspot.com",
-//   messagingSenderId: "941870291118",
-//   appId: "1:941870291118:web:598600316bace5ee8f753f",
-// };
-
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
