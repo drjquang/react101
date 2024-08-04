@@ -23,6 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
-# Extra option
-vite.config.js
+# Extra option, if ignore vite.config.js there will be no server
+# vite.config.js
 

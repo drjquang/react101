@@ -7,3 +7,10 @@ Step 1: build a react router to guide the app that will be build
         - In folder layouts: create RootLayout.jsx as a navigation
         - In folder pages: create the content Home.jsx and About.jsx
     - if modified, add navigation and content
+
+-----------------------------------------------------------------------------------------------------
+Step 2: create firebase connection from react to database
+    - src/config/firebase.js
+    - .env to hide information in config file firebase.js when putting to github
+        - environment variable started with VITE_
+        - config file firebase.js using .env = import.meta.env (process is not defined)

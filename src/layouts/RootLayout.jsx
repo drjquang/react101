@@ -7,8 +7,8 @@ export default function RootLayout() {
       <header>
         <nav>
           <h1>Select your app</h1>
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="about">About</NavLink>
+          <NavLink to="/">Register</NavLink>
+          <NavLink to="login">Login</NavLink>
         </nav>
       </header>
       <main>
