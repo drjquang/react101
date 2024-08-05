@@ -13,6 +13,8 @@ import Login from './components/Login'
 import CheckFirebaseConnection from './components/CheckFirebaseConnection'
 import ReadFirestore from './components/ReadFirestore'
 import WriteFirebase from './components/WriteFirebase'
+import WriteRTDB from './components/WriteRTDB'
+import ReadRTDB from './components/ReadRTDB'
 
 // layouts
 import RootLayout from './layouts/RootLayout'
@@ -25,6 +27,8 @@ const router = createBrowserRouter(
       <Route path="connect" element={<CheckFirebaseConnection />} />
       <Route path="read" element={<ReadFirestore />} />
       <Route path="write" element={<WriteFirebase />} />
+      <Route path="writeRTDB" element={<WriteRTDB />} />
+      <Route path="readRTDB" element={<ReadRTDB />} />
     </Route>
   )
 )

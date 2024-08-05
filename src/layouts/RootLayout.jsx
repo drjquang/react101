@@ -12,6 +12,8 @@ export default function RootLayout() {
           <NavLink to="connect">Connect</NavLink>
           <NavLink to="read">Read</NavLink>
           <NavLink to="write">Write</NavLink>
+          <NavLink to="writeRTDB">Write RTDB</NavLink>
+          <NavLink to="readRTDB">Read RTDB</NavLink>
         </nav>
       </header>
       <main>
