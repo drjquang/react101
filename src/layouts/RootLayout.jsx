@@ -9,6 +9,9 @@ export default function RootLayout() {
           <h1>Select your app</h1>
           <NavLink to="/">Register</NavLink>
           <NavLink to="login">Login</NavLink>
+          <NavLink to="connect">Connect</NavLink>
+          <NavLink to="read">Read</NavLink>
+          <NavLink to="write">Write</NavLink>
         </nav>
       </header>
       <main>
