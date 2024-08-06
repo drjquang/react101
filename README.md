@@ -25,3 +25,6 @@ Step 4: CRUD Firebase RTDB
     - Update has one more sub-route
     - Delete stays in the updateRTDB
     - useEffect can get continuously updated
+-----------------------------------------------------------------------------------------------------
+Step 5: draw graph with chartjs reac-chartjs-2 chartjs-plugin-datalabels
+    - Line graph with button to generate random data, 1 line at a time

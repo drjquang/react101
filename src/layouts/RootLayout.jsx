@@ -15,6 +15,7 @@ export default function RootLayout() {
           <NavLink to="writeRTDB">Write RTDB</NavLink>
           <NavLink to="readRTDB">Read RTDB</NavLink>
           <NavLink to="updateRTDB">Update RTDB</NavLink>
+          <NavLink to="line">Line</NavLink>
         </nav>
       </header>
       <main>

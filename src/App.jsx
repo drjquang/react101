@@ -17,9 +17,11 @@ import WriteRTDB from './components/WriteRTDB'
 import ReadRTDB from './components/ReadRTDB'
 import UpdateRTDB from './components/UpdateRTDB'
 import UpdateWrite from './components/UpdateWrite'
+import LineGraph from './components/LineGraph'
 
 // layouts
 import RootLayout from './layouts/RootLayout'
+
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -33,6 +35,7 @@ const router = createBrowserRouter(
       <Route path="readRTDB" element={<ReadRTDB />} />
       <Route path="updateRTDB" element={<UpdateRTDB />} />
       <Route path="updatewrite/:firebaseId" element={<UpdateWrite />} />
+      <Route path="line" element={<LineGraph />} />
     </Route>
   )
 )
