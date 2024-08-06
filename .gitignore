@@ -23,6 +23,9 @@ dist-ssr
 *.sln
 *.sw?
 
+# I remember to .gitignore .env already
+.env
+
 # Extra option, if ignore vite.config.js there will be no server
 # vite.config.js
 
