@@ -15,6 +15,8 @@ import ReadFirestore from './components/ReadFirestore'
 import WriteFirebase from './components/WriteFirebase'
 import WriteRTDB from './components/WriteRTDB'
 import ReadRTDB from './components/ReadRTDB'
+import UpdateRTDB from './components/UpdateRTDB'
+import UpdateWrite from './components/UpdateWrite'
 
 // layouts
 import RootLayout from './layouts/RootLayout'
@@ -29,6 +31,8 @@ const router = createBrowserRouter(
       <Route path="write" element={<WriteFirebase />} />
       <Route path="writeRTDB" element={<WriteRTDB />} />
       <Route path="readRTDB" element={<ReadRTDB />} />
+      <Route path="updateRTDB" element={<UpdateRTDB />} />
+      <Route path="updatewrite/:firebaseId" element={<UpdateWrite />} />
     </Route>
   )
 )

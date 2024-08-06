@@ -19,3 +19,9 @@ Step 3: read and write to Firestore
     - initialize db and select the collection of Firestore
     - db, getDocs then filteredData, map each element of the array, <div> require key
     - db, addDoc to write data to Firestore, create new document everytime writing
+-----------------------------------------------------------------------------------------------------
+Step 4: CRUD Firebase RTDB
+    - Convert unique id to timestamp, then convert to readable format
+    - Update has one more sub-route
+    - Delete stays in the updateRTDB
+    - useEffect can get continuously updated

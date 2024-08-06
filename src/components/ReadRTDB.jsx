@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { rtdb } from "../config/firebase";
 import { ref, get } from "firebase/database";
 
@@ -24,6 +24,7 @@ export default function ReadRTDB(){
                     <p>{item.fruitDesc}</p>
                     <hr />
                 </div>
+                
             ))}
         </>
     );
